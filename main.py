@@ -10,7 +10,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 def main():
     opt=opts().parse()
     model=CoopNets(opt)
-    swich = 1
+    swich = 7
     if swich == 0:
         model.test()
     elif swich == 1:
